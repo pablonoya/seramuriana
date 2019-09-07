@@ -1,0 +1,22 @@
+{
+    "name": "seramuriana",
+    "displayName": "SērāMūriana",
+    "description": "Color theme based on Sublime Text's Mariana theme mixed up with the sailor soldiers' colors.",
+    "version": "0.0.1",
+    "publisher": "PabloNoya",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "SērāMūriana",
+                "uiTheme": "vs-dark",
+                "path": "./themes/SeraMuriana-color-theme.json"
+            }
+        ]
+    }
+}
