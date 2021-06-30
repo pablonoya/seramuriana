@@ -1,4 +1,5 @@
 {
+  "name": "SērāMūriana",
   "tokenColors": [
     {
       "name": "Comment",
@@ -19,6 +20,14 @@
       "scope": "string",
       "settings": {
         "foreground": "#cea9e3",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Template string var",
+      "scope": "meta.template.expression.js",
+      "settings": {
+        "foreground": "#F2F0FD",
         "fontStyle": ""
       }
     },
@@ -52,15 +61,7 @@
         "punctuation.definition.end.bracket",
         "punctuation.section.arguments.begin.bracket",
         "punctuation.section.arguments.end.bracket",
-        "punctuation.definition.parameters",
-        //python
-        "punctuation.definition.list.begin.python",
-        "punctuation.definition.list.end.python",
-        "punctuation.definition.arguments.begin.python",
-        "punctuation.definition.arguments.end.python",
-        //php
-        "punctuation.section.array.begin.php",
-        "punctuation.section.array.end.php"
+        "punctuation.definition.parameters"
       ],
       "settings": {
         "foreground": "#F2F0FD",
@@ -107,12 +108,7 @@
     },
     {
       "name": "Keyword",
-      "scope": [
-        "keyword",
-        "keyword.operator.word",
-        "keyword.operator.new.js",
-        "keyword.control"
-      ],
+      "scope": ["keyword", "keyword.operator.word", "keyword.operator.new.js", "keyword.control"],
       "settings": {
         "foreground": "#4bb1db",
         "fontStyle": "italic"
@@ -152,10 +148,7 @@
     },
     {
       "name": "HTML CSS punctuation",
-      "scope": [
-        "punctuation.separator.key-value",
-        "punctuation.definition.entity.css"
-      ],
+      "scope": ["punctuation.separator.key-value", "punctuation.definition.entity.css"],
       "settings": {
         "foreground": "#eed33a",
         "fontStyle": "bold"
@@ -171,10 +164,7 @@
     },
     {
       "name": "php block",
-      "scope": [
-        "punctuation.section.embedded.begin.php",
-        "punctuation.section.embedded.end.php"
-      ],
+      "scope": ["punctuation.section.embedded.begin.php", "punctuation.section.embedded.end.php"],
       "settings": {
         "foreground": "#5acece",
         "fontStyle": ""
@@ -245,7 +235,7 @@
     },
     {
       "name": "Entity name",
-      "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
+      "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label  | )",
       "settings": {
         "foreground": "#5acece",
         "fontStyle": ""
@@ -268,10 +258,7 @@
     },
     {
       "name": "Language variable",
-      "scope": [
-        "variable.language",
-        "variable.parameter.function.language.special"
-      ],
+      "scope": ["variable.language", "variable.parameter.function.language.special"],
       "settings": {
         "foreground": "#eacda2",
         "fontStyle": "italic"
@@ -280,6 +267,14 @@
     {
       "name": "Tag name",
       "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#4bb1db",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "jsx tag",
+      "scope": ["entity.name.tag.js", "support.class.component.js"],
       "settings": {
         "foreground": "#4bb1db",
         "fontStyle": ""
@@ -511,6 +506,24 @@
       "settings": {
         "foreground": "#f15175"
       }
+    },
+    {
+      "scope": [
+        "support.function",
+        "meta.funtion.echo.blade",
+        //python
+        "punctuation.definition.list.begin.python",
+        "punctuation.definition.list.end.python",
+        "punctuation.definition.arguments.begin.python",
+        "punctuation.definition.arguments.end.python",
+        //php
+        "punctuation.section.array.begin.php",
+        "punctuation.section.array.end.php"
+      ],
+      "settings": {
+        "foreground": "#F3EE80",
+        "fontStyle": ""
+      }
     }
   ],
   "colors": {
@@ -558,14 +571,14 @@
     "progressBar.background": "#7fd786",
 
     "list.activeSelectionBackground": "#303942",
-    "list.activeSelectionForeground": "#eeeeee",
+    "list.activeSelectionForeground": "#F2F0FD",
     "list.hoverForeground": "#F2F0FD",
     "list.dropBackground": "#eed33a5a",
     "list.focusBackground": "#303942",
     "list.hoverBackground": "#39434c",
 
     "list.inactiveSelectionBackground": "#303942",
-    "list.inactiveSelectionForeground": "#dddddd",
+    "list.inactiveSelectionForeground": "#D8DEE9",
     "list.inactiveFocusBackground": "#303942",
     "list.invalidItemForeground": "#f15175",
     "list.errorForeground": "#f15175",
@@ -589,7 +602,7 @@
     "sideBarSectionHeader.background": "#39434c",
     "sideBarSectionHeader.foreground": "#D8DEE9",
 
-    "editorGroup.border": "#eed33a",
+    "editorGroup.border": "#687180",
     "editorGroup.dropBackground": "#eed33a7F",
     "editorGroupHeader.tabsBackground": "#232A31",
     "editorGroup.emptyBackground": "#232A31",
@@ -607,7 +620,8 @@
 
     "editor.background": "#303942",
     "editor.foreground": "#D8DEE9",
-    "editorLineNumber.activeForeground": "#D8DEE9",
+    "editorLineNumber.activeForeground": "#F2F0FD",
+    "editorLineNumber.foreground": "#B0B0B7",
     "editorCursor.foreground": "#F3EE80",
     "editor.selectionBackground": "#5acece27",
     "editor.inactiveSelectionBackground": "#68989827",
@@ -624,7 +638,7 @@
 
     "editor.hoverHighlightBackground": "#39709337",
 
-    "editor.lineHighlightBackground": "#282f37",
+    "editor.lineHighlightBackground": "#232a31",
     "editor.rangeHighlightBackground": "#39709370",
 
     "editorLink.activeForeground": "#4bb1db",
@@ -778,11 +792,15 @@
     "terminal.selectionBackground": "#5acece27",
     "terminalCursor.background": "#F3EE80",
     "terminalCursor.foreground": "#F3EE80",
+    "terminal.border": "#687180",
 
     "debugToolBar.background": "#39434c",
     "debugToolBar.border": "#44525f",
     "editor.stackFrameHighlightBackground": "#f8c27027",
     "editor.focusedStackFrameHighlightBackground": "#f8c27058",
+    "editor.foldBackground": "#39434c",
+
+    "peekViewEditor.background": "#203b50",
 
     "gitDecoration.addedResourceForeground": "#7fd786",
     "gitDecoration.modifiedResourceForeground": "#4bb1db",
@@ -818,6 +836,5 @@
 
     "minimap.findMatchHighlight": "#f8c270c8",
     "gitlens.trailingLineForegroundColor": "#889"
-  },
-  "name": "SērāMūriana"
+  }
 }
