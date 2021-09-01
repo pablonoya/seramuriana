@@ -821,7 +821,7 @@
     "statusBar.border": "#455863",
 
     "statusBar.debuggingBackground": "#fbb66f",
-    "statusBar.debuggingBorder": "#f7df6e",
+    "statusBar.debuggingBorder": "#fbb66f",
     "statusBar.debuggingForeground": "#232a31",
 
     "statusBar.noFolderBackground": "#55b8e2",
@@ -876,6 +876,7 @@
     "terminal.border": "#687180",
 
     "debugToolBar.border": "#d39634",
+    "debugToolBar.background": "#394550",
 
     "debugIcon.pauseForeground": "#55b8e2",
     "debugIcon.stopForeground": "#f56684",
@@ -924,9 +925,9 @@
     "editor.snippetFinalTabstopHighlightBorder": "#efa3ce70",
     "editor.snippetFinalTabstopHighlightBackground": "#efa3ce",
 
-    "minimap.findMatchHighlight": "#fbb66fc8",
+    "minimap.findMatchHighlight": "#fbb66fd8",
     "minimapGutter.modifiedBackground": "#55b8e2",
 
-    "gitlens.trailingLineForegroundColor": "#889"
+    "gitlens.trailingLineForegroundColor": "#a2a0ad"
   }
 }
