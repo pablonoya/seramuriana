@@ -783,8 +783,8 @@
     "editorMarkerNavigationWarning.background": "#fbb66f",
     "editorMarkerNavigationInfo.background": "#55b8e2",
 
-    "peekView.border": "#394550",
-    "peekViewEditor.background": "#303942",
+    "peekView.border": "#7cd5a1",
+    "peekViewEditor.background": "#37414b",
     "peekViewEditor.matchHighlightBackground": "#fbb66f28",
     "peekViewEditor.matchHighlightBorder": "#fbb66f58",
 
