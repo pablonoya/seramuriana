@@ -928,6 +928,13 @@
     "minimap.findMatchHighlight": "#fbb66fd8",
     "minimapGutter.modifiedBackground": "#55b8e2",
 
-    "gitlens.trailingLineForegroundColor": "#a2a0ad"
+    "gitlens.trailingLineForegroundColor": "#a2a0ad",
+
+    "editorBracketHighlight.foreground1": "#f5eb94",
+    "editorBracketHighlight.foreground2": "#7cd5a1",
+    "editorBracketHighlight.foreground3": "#61d6c6",
+    "editorBracketHighlight.foreground4": "#55b8e2",
+    "editorBracketHighlight.foreground5": "#f7df6e",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#f56684"
   }
 }
