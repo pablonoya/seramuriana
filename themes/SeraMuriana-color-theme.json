@@ -197,7 +197,8 @@
         "punctuation.separator.dot-access",
         "punctuation.separator.pointer-access",
         //python
-        "punctuation.separator.period.python"
+        "punctuation.separator.period.python",
+        "punctuation.dot.dart"
       ],
       "settings": {
         "foreground": "#f56684",
@@ -234,7 +235,7 @@
     },
     {
       "name": "Storage type",
-      "scope": "storage.type",
+      "scope": ["storage.type", "storage.modifier"],
       "settings": {
         "foreground": "#55b8e2",
         "fontStyle": "italic"
@@ -268,6 +269,23 @@
         "foreground": "#61d6c6"
       }
     },
+    {
+      "name": "Dart class",
+      "scope": ["support.class.dart"],
+      "settings": {
+        "foreground": "#61d6c6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Dart function",
+      "scope": ["entity.name.function.dart"],
+      "settings": {
+        "foreground": "#f5eb94"
+        // "fontStyle": ""
+      }
+    },
+
     {
       "name": "Inheritance",
       "scope": ["meta.class.inheritance.python", "meta.attribute.python"],
@@ -348,6 +366,14 @@
         "support.type.python",
         "support.type.exception.python"
       ],
+      "settings": {
+        "foreground": "#f7df6e",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Decorator",
+      "scope": ["meta.function.decorator", "storage.type.annotation"],
       "settings": {
         "foreground": "#f7df6e",
         "fontStyle": ""
