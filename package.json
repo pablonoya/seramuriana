@@ -1,22 +1,38 @@
 {
-    "name": "seramuriana",
-    "displayName": "SērāMūriana",
-    "description": "Color theme based on Sublime Text's Mariana theme mixed up with the sailor soldiers' colors.",
-    "version": "0.0.1",
-    "publisher": "PabloNoya",
-    "engines": {
-        "vscode": "^1.27.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "SērāMūriana",
-                "uiTheme": "vs-dark",
-                "path": "./themes/SeraMuriana-color-theme.json"
-            }
-        ]
-    }
+  "publisher": "pablonoya",
+  "name": "seramuriana",
+  "displayName": "SērāMūriana color theme for vscode",
+  "description": "A pastelcolor theme that blends Sublime Text's Mariana theme with the Sailor soldiers' colors.",
+  "version": "0.1.0",
+  "license": "GPLV3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pablonoya/seramuriana"
+  },
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.27.0"
+  },
+  "keywords": [
+    "seramuriana",
+    "theme",
+    "color-theme",
+    "pastel",
+    "pastel-colors",
+    "vscode",
+    "vscode-theme",
+    "vscode-extension"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "seramuriana",
+        "uiTheme": "vs-dark",
+        "path": "./themes/SeraMuriana-color-theme.json"
+      }
+    ]
+  }
 }
