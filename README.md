@@ -13,9 +13,8 @@ I've added a touch of pastel tones to balance the vivid colors, the resulting pa
 
 ## Installation
 
-1. Download the vsix package.
+1. Download the vsix package from [releases](https://github.com/pablonoya/seramuriana/releases).
 2. Install on vscode.
-
 ```
 code --install-extension seramuriana-0.1.0.vsix
 ```
