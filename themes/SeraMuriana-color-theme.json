@@ -1,5 +1,8 @@
 {
   "name": "SērāMūriana",
+  "author": "pablonoya",
+  "maintainers": ["pablonoya <pablonoya18@gmail.com>"],
+  "type": "dark",
   "tokenColors": [
     {
       "name": "Source",
