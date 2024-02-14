@@ -119,6 +119,14 @@
       }
     },
     {
+      "name": "CSS important",
+      "scope": "keyword.other.important",
+      "settings": {
+        "foreground": "#7cd5a1",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
@@ -127,7 +135,7 @@
       }
     },
     {
-      "name": "Logical Operator python",
+      "name": "Logical Operator",
       "scope": "keyword.operator.logical",
       "settings": {
         "foreground": "#fabdd4",
@@ -144,7 +152,12 @@
     },
     {
       "name": "Punctuation",
-      "scope": ["punctuation.terminator", "punctuation.separator"],
+      "scope": [
+        "punctuation.terminator",
+        "punctuation.separator",
+        "punctuation.section",
+        "meta.property-list"
+      ],
       "settings": {
         "foreground": "#f5eb94",
         "fontStyle": "bold"
@@ -152,17 +165,13 @@
     },
     {
       "name": "HTML CSS punctuation",
-      "scope": ["punctuation.separator.key-value", "punctuation.definition.entity.css"],
+      "scope": [
+        "punctuation.separator.key-value",
+        "punctuation.definition.entity.css",
+        "entity.name.tag.wildcard"
+      ],
       "settings": {
-        "foreground": "#f7df6e",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Punctuation",
-      "scope": ["punctuation.section"],
-      "settings": {
-        "foreground": "#f5eb94",
+        "foreground": "#f5d1a3",
         "fontStyle": "bold"
       }
     },
@@ -198,7 +207,8 @@
         "meta.function-call",
         "support.function.builtin",
         "meta.member.access",
-        "support.class.dart"
+        "support.class.dart",
+        "meta.property-value"
       ],
       "settings": {
         "foreground": "#61d6c6",
@@ -221,7 +231,9 @@
         "support.type.exception.python",
         "punctuation.definition.decorator",
         "meta.function.decorator",
-        "storage.type.annotation"
+        "storage.type.annotation",
+        "keyword.control.at-rule",
+        "punctuation.definition.keyword"
       ],
       "settings": {
         "foreground": "#f7df6e",
@@ -279,7 +291,7 @@
       "scope": ["support.type", "support.class", "support.constant"],
       "settings": {
         "foreground": "#f5d1a3",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
