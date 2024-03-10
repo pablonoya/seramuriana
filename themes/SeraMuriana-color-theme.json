@@ -48,14 +48,6 @@
       }
     },
     {
-      "name": "Punctuation variable",
-      "scope": "punctuation.definition.variable",
-      "settings": {
-        "foreground": "#f5eb94",
-        "fontStyle": ""
-      }
-    },
-    {
       "name": "Punctuation",
       "scope": "punctuation.definition.tag",
       "settings": {
@@ -70,6 +62,7 @@
         "punctuation.section.arguments.begin.bracket",
         "punctuation.section.arguments.end.bracket",
         "punctuation.definition.parameters",
+        "punctuation.parenthesis",
         "meta.brace"
       ],
       "settings": {
@@ -94,6 +87,14 @@
       }
     },
     {
+      "name": "support class or constant",
+      "scope": ["support.class", "support.constant"],
+      "settings": {
+        "foreground": "#f5d1a3",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "Keyword",
       "scope": [
         "keyword",
@@ -103,7 +104,7 @@
         "keyword.operator.expression",
         "meta.function",
         "meta.class",
-        "storage.type.function"
+        "storage.type"
       ],
       "settings": {
         "foreground": "#55b8e2",
@@ -135,6 +136,14 @@
       }
     },
     {
+      "name": "Operator new",
+      "scope": "keyword.operator.new",
+      "settings": {
+        "foreground": "#55b8e2",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Logical Operator",
       "scope": "keyword.operator.logical",
       "settings": {
@@ -153,6 +162,7 @@
     {
       "name": "Punctuation",
       "scope": [
+        "punctuation.definition.variable",
         "punctuation.terminator",
         "punctuation.separator",
         "punctuation.section",
@@ -161,6 +171,15 @@
       "settings": {
         "foreground": "#f5eb94",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Punctuation return type",
+      "scope": ["punctuation.separator.annotation.result.python", "storage.type.function.arrow."],
+      "settings": {
+        "foreground": "#f5eb94",
+
+        "fontStyle": ""
       }
     },
     {
@@ -223,17 +242,21 @@
       }
     },
     {
-      "name": "Library function and decorators",
+      "name": "Library function, decorators and annotations",
       "scope": [
         "support.macro",
         "keyword.operator.sizeof",
         "support.type.python",
+        "meta.item-access.python",
         "support.type.exception.python",
         "punctuation.definition.decorator",
         "meta.function.decorator",
         "storage.type.annotation",
+        "meta.type.annotation",
         "keyword.control.at-rule",
-        "punctuation.definition.keyword"
+        "punctuation.definition.keyword",
+        "entity.name.function.decorator",
+        "support.type.primitive"
       ],
       "settings": {
         "foreground": "#f7df6e",
@@ -248,6 +271,8 @@
         "meta.attribute",
         "meta.object.member",
         "meta.function-call.arguments",
+        "meta.function.parameters",
+        "meta.property-name",
         "support.type.property-name",
         "entity.name.type.module",
         "entity.other.inherited-class"
@@ -267,12 +292,13 @@
         "storage.type.format"
       ],
       "settings": {
-        "foreground": "#f5d1a3"
+        "foreground": "#f5d1a3",
+        "fontStyle": ""
       }
     },
     {
       "name": "Tag name",
-      "scope": ["entity.name.tag", "meta.tag.sgml.html", "support.class.component.js"],
+      "scope": ["entity.name.tag", "meta.tag.sgml.html", "support.class.component"],
       "settings": {
         "foreground": "#55b8e2",
         "fontStyle": ""
@@ -284,14 +310,6 @@
       "settings": {
         "foreground": "#61d6c6",
         "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "support class, type or constant",
-      "scope": ["support.type", "support.class", "support.constant"],
-      "settings": {
-        "foreground": "#f5d1a3",
-        "fontStyle": ""
       }
     },
     {
