@@ -247,7 +247,6 @@
         "support.macro",
         "keyword.operator.sizeof",
         "support.type.python",
-        "meta.item-access.python",
         "support.type.exception.python",
         "punctuation.definition.decorator",
         "meta.function.decorator",
@@ -273,6 +272,7 @@
         "meta.function-call.arguments",
         "meta.function.parameters",
         "meta.property-name",
+        "meta.item-access.python",
         "support.type.property-name",
         "entity.name.type.module",
         "entity.other.inherited-class"
